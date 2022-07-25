@@ -13,11 +13,11 @@ To start the Unity project, download it and open it using Unity version 2018.1.7
 ### Controls
 To avoid recognition errors that influence experiment results, the assistant was implemented in a wizard of oz way. That means that instead of including object recognition, the assistant was controlled remotely using a remote client. For better testing, the control functionalities were also included in the main project.
 
-To select conditions:
+#### 1. To select conditions:
 
 Rin > AvatarController (script) > enter number between 1 and 4 to determine condition order and models (when pointing is 1, in first round only pointing can be started)
 
-To control the avatar:
+#### 2. To control the avatar:
 
 Pointing:
 - Start pointing + pointing target: mouse click on dummy table
