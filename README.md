@@ -11,7 +11,7 @@ Audio files are not included.
 To start the Unity project, download and open it using Unity version 2018.1.7f. Due to limitations of the spherical FTVR display, this project was created using an older Unity version. 
 
 ### Controls
-To avoid recognition errors that influence experiment results, the assistant was implemented in a wizard of oz way. This means that instead of including object recognition, the assistant was controlled remotely using a remote client. For better testing, the control functionalities were also included in the main project.
+To avoid recognition errors that influence experiment results, the assistant was implemented in a wizard of oz way. This means that instead of including object recognition, a second Unity project was created including a camera stream that enables remote control of the assistant using TCP. For testing purposes, the control functionalities were also included in the main project.
 
 #### 1. To select conditions:
 
