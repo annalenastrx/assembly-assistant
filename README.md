@@ -17,7 +17,9 @@ To avoid recognition errors that influence experiment results, the assistant was
 
 Rin > AvatarController (script) > enter number between 1 and 4 to determine condition order and models (when pointing is 1, in first round only pointing can be started)
 
-#### 2. To control the avatar:
+#### 2. Press play
+
+#### 3. To control the avatar:
 
 Pointing:
 - Start pointing + pointing target: mouse click on dummy table
